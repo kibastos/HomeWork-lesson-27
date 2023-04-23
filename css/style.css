@@ -1,0 +1,40 @@
+.wrapper {
+  padding: 50px;
+  height: 100%;
+}
+
+.container {
+  position: relative;
+  height: 200px;
+  background-color: #444;
+}
+
+.block {
+  background-color: #fff;
+  height: 200px;
+  width: 100%;
+  position: absolute;
+  font-size: 30px;
+  text-align: center;
+  color: #ff0000;
+}
+
+
+
+.block {
+  animation: text 2s infinite alternate;
+
+  /* animation-name: text; */
+  /* animation-duration: 2s; */
+  /* animation-iteration-count: infinite; */
+  /* animation-direction: alternate; */
+
+}
+
+
+
+@keyframes text {
+  100% {
+    color: #000;
+  }
+}
